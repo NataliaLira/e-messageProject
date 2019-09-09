@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+header{
+    background-color: #ffcd71;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    display: flex;
+    align-items: center;    
+    width: 20%;
+}
+#company-logo{
+    padding: 5px 5px;
+    width: 20%;
+    margin: 0;
+    border-radius: 50%;
+}
+nav{
+    width: 30%;
+    padding-right: 20px; 
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+}
+a, li{
+    text-transform: uppercase;
+    text-decoration:none;
+    height: 100%;
+    color: black;
+}
+
+li:hover{
+    font-size: 18px;
+    background-color: #d4c1a370;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #d4c1a370;
+}
+main>div{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+main>div:last-child{
+    border-bottom: none;
+}
+figure{
+    width: 90px;
+    height: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+.profile-pictures{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 131px;
+}
+footer{
+    background-color: #ffcd71;
+    text-align: center;
+}
+footer>p{
+    padding: 7px 0px;
+    margin: 0px;
+}
